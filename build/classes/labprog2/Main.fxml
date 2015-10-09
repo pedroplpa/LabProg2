@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="324.0" prefWidth="378.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="labprog2.MainController">
+    <stylesheets>
+        <URL value="@main.css" />
+    </stylesheets>
+   <children>
+      <Button fx:id="signupButton" layoutX="80.0" layoutY="150.0" mnemonicParsing="false" onAction="#signUpClick" text="Sign Up" />
+      <Button fx:id="signinButton" layoutX="244.0" layoutY="150.0" mnemonicParsing="false" onAction="#signInClick" text="Sign In" />
+   </children>
+</AnchorPane>
